@@ -1,0 +1,72 @@
+abhishekahirrao@Abhisheks-MacBook-Pro hmm-implementation % python3 src/Q_10_2.py 
+Letter2Vec using HMM Emission Matrix
+============================================================
+
+Loading text from /Users/abhishekahirrao/Documents/GitHub/hmm-implementation/BrownCorpus.txt...
+Loaded 15046 characters
+Encoded to 15046 observations
+
+============================================================
+Training HMM with N=3 hidden states
+============================================================
+Training HMM with N=3, M=27
+Training complete. Final log P(O|lambda) = -40212.8752
+
+============================================================
+Results for N=3 hidden states
+============================================================
+
+Letter groupings (threshold=0.65):
+Group 1: ['a', 'e', 'g', 'o', 'y']
+Group 2: ['b', 'c', 'd', 'f', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'z']
+Group 3: ['h', 'u', 'x', ' ']
+Group 4: ['i']
+
+Average similarity within vowels (a,e,i,o,u): 0.6536
+Average similarity within consonants: 0.8459
+Average similarity between vowels and consonants: 0.2107
+
+Top 10 most similar letter pairs:
+  w - z: 1.0000
+  v - z: 1.0000
+  v - w: 1.0000
+  b - w: 1.0000
+  b - f: 1.0000
+  b - z: 1.0000
+  b - v: 1.0000
+  f - w: 1.0000
+  f - v: 1.0000
+  f - z: 1.0000
+
+
+============================================================
+Training HMM with N=4 hidden states
+============================================================
+Training HMM with N=4, M=27...
+Training complete. Final log P(O|lambda) = -39418.1094
+
+============================================================
+Results for N=4 hidden states
+============================================================
+
+Letter groupings (threshold=0.65):
+Group 1: ['a', 'e', 'i', 'o', 'u']
+Group 2: ['b', 'c', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'p', 'v', 'w', 'z']
+Group 3: ['d', 'n', 'r', 's', 'x', 'y', ' ']
+Group 4: ['q', 't']
+
+Average similarity within vowels (a,e,i,o,u): 0.9110
+Average similarity within consonants: 0.6114
+Average similarity between vowels and consonants: 0.1357
+
+Top 10 most similar letter pairs:
+  e - o: 1.0000
+  h - j: 1.0000
+  n - x: 0.9981
+  g - k: 0.9963
+  h - z: 0.9955
+  j - z: 0.9947
+  v - z: 0.9946
+  a - o: 0.9937
+  a - e: 0.9937
+  b - w: 0.9892
