@@ -2,7 +2,7 @@
 
 # CS 271: Hidden Markov Models
 
-This repository contains the source code and materials for **Assignment 1** of CS 271, a course on cryptography and network security taught by **Prof. Mark Stamp** at San José State University during the Fall 2025 semester. The assignment focuses on implementing and applying **Hidden Markov Models (HMMs)** to solve various problems, including probability computation and a cryptographic task.
+This repository contains the source code and materials for **Assignment 1** of CS 271, Topics in Machine Learning, taught by **Prof. Mark Stamp** at San José State University during the Fall 2025 semester. The assignment focuses on implementing and applying **Hidden Markov Models (HMMs)** to solve various problems, including probability computation and a cryptographic task.
 
 ---
 
